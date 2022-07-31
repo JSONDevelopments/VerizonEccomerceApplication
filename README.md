@@ -6,6 +6,8 @@ A capstone project from HCL and Verizon to create a mock up e-commerce web appli
 
 ## Latest Update
 
+- ***07/31/22*** Connected to Jira, Sonarcloud, and published to Azure
+
 - ***07/08/22*** Http Session now started and replaces old method of storing login credentials. Logout button fully functional and checks for multiple session invalidates. Product class, table, ProductDao, ProductServlet, and product.list.jsp created. Creates list view for admins. Editing/Creating not implemented yet.
 
 - ***07/07/22*** New Account creation accessible to new users in login page. Log in credentials now saved across pages. Admins can now create admins/ update users to admins while customers cannot. All redirects are correctly working for login, insert, create, update, delete, and select (list).
