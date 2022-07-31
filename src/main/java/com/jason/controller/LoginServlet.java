@@ -41,7 +41,6 @@ public class LoginServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		System.out.println("LoginServlet doGet called.");
-		response.getWriter().append("Served at: ").append(request.getContextPath());
 		User user;
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
