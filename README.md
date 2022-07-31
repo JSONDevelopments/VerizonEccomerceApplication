@@ -1,3 +1,8 @@
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=jasonjj333_VerizonEccomerceApplication)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jasonjj333_VerizonEccomerceApplication&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=jasonjj333_VerizonEccomerceApplication)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=jasonjj333_VerizonEccomerceApplication&metric=bugs)](https://sonarcloud.io/summary/new_code?id=jasonjj333_VerizonEccomerceApplication)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=jasonjj333_VerizonEccomerceApplication&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=jasonjj333_VerizonEccomerceApplication)
+
 # VerizonEcommerceApplication
 
 ## Description
