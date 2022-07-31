@@ -26,16 +26,8 @@ public class OrderDao {
     }
 
     protected Connection getConnection() {
-        Connection connection = null;
-        try {
-            Class.forName(jdbcDriver);
-            connection = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-        return connection;
+        DBCon dbCon = new DBCon();
+        return dbCon.getConnection();
     }
 
     //insert order
