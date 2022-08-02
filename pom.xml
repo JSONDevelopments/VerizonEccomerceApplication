@@ -54,13 +54,6 @@
       <artifactId>jakarta.mail</artifactId>
       <version>1.6.4</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/com.stripe/stripe-java -->
-    <dependency>
-      <groupId>com.stripe</groupId>
-      <artifactId>stripe-java</artifactId>
-      <version>20.133.0</version>
-    </dependency>
-
 
   </dependencies>
 
@@ -68,6 +61,26 @@
     <finalName>ServletTest</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-dependency-plugin</artifactId>
+          <executions>
+            <execution>
+              <phase>package</phase>
+              <goals><goal>copy</goal></goals>
+              <configuration>
+                <artifactItems>
+                  <artifactItem>
+                    <groupId>com.heroku</groupId>
+                    <artifactId>webapp-runner</artifactId>
+                    <version>9.0.52.1</version>
+                    <destFileName>webapp-runner.jar</destFileName>
+                  </artifactItem>
+                </artifactItems>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>

@@ -4,13 +4,13 @@ C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\control
 C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\model\User.java
 C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\controller\user\UserInsertServlet.java
 C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\model\Product.java
-C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\controller\order\OrderPaymentServlet.java
 C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\controller\LoginServlet.java
 C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\controller\product\ProductNewServlet.java
 C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\controller\order\CartCheckOutServlet.java
 C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\controller\user\UserUpdateServlet.java
 C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\controller\cart\OrderNowServlet.java
 C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\controller\product\ProductDeleteServlet.java
+C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\dao\DBCon.java
 C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\dao\ProductDao.java
 C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\controller\order\OrderEditStatusServlet.java
 C:\Users\jason\IdeaProjects\EcommerceApplication\src\main\java\com\jason\controller\order\OrderUpdateServlet.java
