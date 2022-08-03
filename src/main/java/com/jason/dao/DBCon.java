@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class DBCon {
 
     public static Connection getConnection() {
-        String jdbcURL = "jdbc:mysql://ecommercedb.mysql.database.azure.com/ecommercedb";
-        String jdbcUsername = "jasonjj33";
-        String jdbcPassword = "Awesome33";
+        String jdbcURL = "jdbc:mysql://ecommerce-db.czhwagoa9dfo.us-east-2.rds.amazonaws.com/jdbc";
+        String jdbcUsername = "admin";
+        String jdbcPassword = "jasonjj33";
         String jdbcDriver = "com.mysql.jdbc.Driver";
         Connection connection = null;
         try {
